@@ -1,0 +1,479 @@
+﻿/* Default */
+.defaultLabel{
+    font-size:95%;
+    font-family:'Microsoft YaHei';
+    color:#5A5A5A;
+}
+
+.defaultButton
+{
+    font-size:90%;
+    margin:0px;
+    padding:7px;
+    font-family:'Microsoft YaHei';
+}
+
+.defaultButtonMiddle {
+    font-size: 100%;
+    margin: 0px;
+    padding: 8px 32px;
+}
+
+.defaultMiniButton
+{
+    font-size:90%;
+    margin:0px;
+    padding:4px 8px;
+}
+
+.defaultLinkButton
+{
+    font-size:110%;
+    font-family:'Microsoft YaHei';
+    color:#0000FF;
+    padding-left:5px;
+    padding-right:5px;
+    text-decoration:none;
+}
+
+.orangeLinkButton
+{
+    font-family: 'Microsoft YaHei';
+    font-size: 130%;
+    padding: 8px 24px;
+    background-color: #E46D0A;
+    color: #0F253F;
+    text-decoration: none;
+    border: 1px solid #974807;
+}
+
+.defaultLinkRich
+{
+    color:#0000FF;
+    padding:8px 16px;
+    background-color:#B6DDE8;
+    border:1px solid #215867;
+}
+
+    .defaultLinkRich:hover
+    {
+        background-color:#DBEEF3;
+    }
+
+.defaultTextbox
+{
+    padding: 3px;
+    font-family:Microsoft YaHei;
+    font-size:120%;
+}
+
+.defaultTextboxMiddle {
+    padding: 3px ;
+    font-family: Microsoft YaHei;
+    font-size: 105%;
+}
+
+.defaultRadioButton
+{
+    font-family:'Microsoft YaHei';
+}
+
+.defaultDropDownList
+{
+    padding:3px;
+    font-family:'Microsoft YaHei';
+    font-size:120%;
+}
+
+.defaultDropDownListMiddle {
+    padding: 3px;
+    font-family: 'Microsoft YaHei';
+    font-size: 105%;
+}
+
+.defaultDropDownListSmall {
+    padding: 3px;
+    font-family: 'Microsoft YaHei';
+    font-size: 101%;
+}
+
+.defaultCheckBox {
+    font-family:'Microsoft YaHei';
+}
+.defaultNote
+{
+    padding:10px;
+    border:1px solid #215867;
+    background-color:#31849B;
+    color:#FFFF00;
+    font-family:'Microsoft YaHei';
+    font-size:100%;
+}
+
+.noteLightBule {
+    padding: 10px;
+    border: 1px solid #31849B;
+    background-color: #B6DDE8;
+    font-family: 'Microsoft YaHei';
+    font-size: 100%;
+}
+
+.noteGray {
+    padding: 10px;
+    border: 1px solid #D8D8D8;
+    background-color: #F3F3F3;
+    font-family: 'Microsoft YaHei';
+    font-size: 100%;
+}
+
+    .defaultNote .title
+    {
+        padding:0px;
+        margin:0px;
+        font-weight:bold;
+        font-family:'Microsoft YaHei';
+        color:#FFFF00;
+    }
+
+    .defaultNote p
+    {
+        text-align:left;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:0px;
+        padding-right:0px;
+        margin:0px;
+        font-family:'Microsoft YaHei';
+        color:#FFFF00;
+    }
+
+.defaultWarning
+{
+    padding:10px;
+    border:1px solid #C00000;
+    background-color:#FF0000;
+    color:#FF0000;
+    font-family:'Microsoft YaHei';
+    font-size:110%;
+}
+
+    .defaultWarning p
+    {
+        color:#FFFF00;
+        padding-top:3px;
+        padding-bottom:3px;
+        padding-left:0px;
+        padding-right:0px;
+        margin:0px;
+        font-family:'Microsoft YaHei';
+    }
+
+    .defaultWarning .title
+    {
+        padding:0px;
+        margin:0px;
+        font-weight:bold;
+        font-family:'Microsoft YaHei';
+    }
+
+.default-caption{
+    text-align:left;
+    font-family:'Microsoft YaHei';
+    font-size:140%;
+    padding-bottom:8px;
+}
+
+.default-td-title,
+.default-td-title-left
+{
+    font-family:'Microsoft YaHei';
+    color:#5A5A5A;
+    vertical-align:top;
+    padding-right:3px;
+}
+
+.default-td-title{
+    text-align:right;
+}
+
+.default-td-title-left {
+    text-align:left;
+}
+
+.default-td-title-middle {
+    font-family: 'Microsoft YaHei';
+    color: #5A5A5A;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 3px;
+}
+
+.default-td-content
+{
+    font-family:'Microsoft YaHei';
+    text-align:left;
+    vertical-align:top;
+    padding-bottom:5px;
+}
+
+.default-info-bar {
+    padding: 4px;
+    border: 1px solid #31849B;
+    background-color: #B6DDE8;
+}
+
+.default-info-bar-td-title{
+    text-align:center;
+    font-family:'Microsoft YaHei';
+    font-size:95%;
+    vertical-align:middle;
+    padding-left:8px;
+    padding-right:8px;
+}
+
+.default-info-bar-td-content {
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    font-size: 105%;
+    font-weight:bold;
+    color:#E46D0A;
+    vertical-align:bottom;
+    padding-left:8px;
+    padding-right:8px;
+}
+
+.badge-green-small,
+.badge-orange-small,
+.badge-red-small,
+.badge-blue-small{
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    border-radius: 16px;
+    padding: 2px 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+    font-size: 16px;
+    font-family: 'Microsoft YaHei';
+    line-height: 28px;
+}
+
+.badge-green-middle,
+.badge-orange-middle,
+.badge-red-middle,
+.badge-blue-middle {
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    padding: 2px 10px;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+    font-size: 20px;
+    font-family: 'Microsoft YaHei';
+    line-height: 34px;
+}
+
+.badge-green-big,
+.badge-orange-big,
+.badge-red-big,
+.badge-blue-big {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    padding: 4px 16px;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.8);
+    font-size: 30px;
+    font-family: 'Microsoft YaHei';
+    line-height: 53px;
+}
+
+.badge-green-small,
+.badge-green-middle,
+.badge-green-big {
+    background-color: #126B18;
+}
+
+.badge-orange-small,
+.badge-orange-middle,
+.badge-orange-big {
+    background-color: #E46D0A;
+}
+
+.badge-red-small,
+.badge-red-middle,
+.badge-red-big {
+    background-color: #C00000;
+}
+
+.badge-blue-small,
+.badge-blue-middle,
+.badge-blue-big{
+    background-color: #0070C0;
+}
+
+.defaultValidate {
+    font-family: 'Microsoft YaHei';
+}
+
+.default-must-fill
+{
+    font-family:'Microsoft YaHei';
+    font-size:110%;
+    color:#FF0000;
+}
+
+.default-p-mini
+{
+    padding:0px;
+    margin:0px;
+    font-family:'Microsoft YaHei';
+}
+
+.default-div-message
+{
+    float: left;
+    width: 100%;
+    background-color: #DBEEF3;
+    margin-top: 10px;
+}
+
+    .default-div-message .inner
+    {
+        padding:5px;
+    }
+.default-p-message-title
+{
+    float: left;
+    width: 100%;
+    font-family: 'Microsoft YaHei';
+    font-size: 95%;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.default-p-message-content
+{
+    float: left;
+    width: 100%;
+    font-family: 'Microsoft YaHei';
+    font-size: 95%;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 统计样式 ****/
+.statTable
+{
+    font-size:90%;
+}
+.statTable caption
+{
+    text-align:left;
+    font-weight:bold;
+    padding:2px 5px 2px 5px;
+    color:#326696;
+    font-size:100%;
+}
+.statTable td
+{
+    text-align:left;
+}
+.tdStatTitle
+{
+    padding:2px 5px 2px 5px;
+    color:#33719A;
+}
+.tdStatDate
+{
+    padding:2px 30px 2px 5px;
+    color:#C92D20;
+    font-weight:bold;
+}
+/* end 统计样式 ****/
+
+/* 报表样式 ********/
+
+/* 生成报表链接样式 */
+.reportCreateLink
+{
+    color:#0000ff; 
+    font-size:100%; 
+    font-weight:bold;
+}
+/* end 报表样式 ****/
+
+/*操作栏 processBar */
+.processBar{
+    padding:0px 0px 3px 0px;
+    margin-bottom:10px;
+    border-bottom:2px solid #215867;
+    float:left;
+    width:100%;
+    vertical-align:bottom;
+}
+
+.processBarHome {
+    padding: 0px 0px 3px 0px;
+    margin-top:8px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #A5A5A5;
+    float: left;
+    width: 100%;
+    vertical-align: bottom;
+}
+
+.processBarHome td{
+    font-family:'Microsoft YaHei';
+    color:#5A5A5A;
+}
+
+/*搜索文本框*/
+.processSearchTxt {
+    font-size:110%;
+    font-family:Calibri, 'Microsoft YaHei';
+    padding-top:3px;
+    padding-bottom:3px;
+}
+/* 操作按钮样式 */
+.processButton{
+    font-size:90%;
+    margin:0px;
+    padding:7px;
+    float:left;
+}
+/* 操作栏返回连接样式 */
+.processBackTo{
+    font-size:90%;
+    margin-bottom:0px;
+    color:#0000ff;
+    font-weight:bold;
+    border:0px;
+    vertical-align:bottom;
+    padding:10px 5px 0px 0px;
+    float:left;
+}
+
+
+/* 布局Table */
+.LayoutTable
+{
+    font-size:90%;
+}
+
+.LayoutTitleTD
+{
+    vertical-align:top;
+    text-align:right;
+    padding:5px;
+}
+
+.td_right {
+    text-align:right;
+    padding:5px;
+}
+
+.td_left {
+    text-align:left;
+    padding:5px;
+}

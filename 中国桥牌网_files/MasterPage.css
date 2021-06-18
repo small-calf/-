@@ -1,0 +1,595 @@
+﻿/* MasterPage */
+
+#div_MasterPage_Container_Header {
+    width: 100%;
+    float: left;
+    background-color: #e0f4d8;
+}
+
+#div_MasterPage_Container_Header_inner,
+#div_MasterPage_Container_Content,
+#div_MasterPage_Container_Footer {
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#div_MasterPage_fast_access {
+    clear: both;
+    width: 100%;
+    padding-top: 5px;
+    text-align: right;
+}
+
+#div_MasterPage_fast_access_inner {
+    float:right;
+    padding-right: 5px;
+}
+
+#div_MasterPage_fast_access_inner a {
+    margin-left: 20px;
+    font-size: 90%;
+    font-family: 'Microsoft YaHei';
+}
+
+#div_MasterPage_fast_access_inner ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        #div_MasterPage_fast_access_inner ul li {
+            float: left;
+            position: relative;
+        }
+
+    #div_MasterPage_fast_access_inner li a:link, #div_MasterPage_fast_access_inner li a:visited {
+        display: block;
+        color: #1d3d4a;
+        text-decoration: none;
+        font-size: 90%;
+        font-family: 'Microsoft YaHei';
+    }
+
+    #div_MasterPage_fast_access_inner ul li ul {
+        display: none;
+    }
+
+    #div_MasterPage_fast_access_inner ul li:hover a {
+        
+        color: #f8750b;
+        clear: both;
+    }
+
+    #div_MasterPage_fast_access_inner ul li:hover ul {
+        display: block;
+        position: absolute;
+        margin-left:-15px;
+        width: 120px;
+        z-index:200;
+    }
+
+        #div_MasterPage_fast_access_inner ul li:hover ul li {
+            text-align:left;
+        }
+
+        #div_MasterPage_fast_access_inner ul li:hover ul li a {
+            display: block;
+            background: #b9e5ac;
+            color: #f8750b;
+            font-size: 90%;
+            font-weight: normal;
+            min-width: 130px;
+            border-bottom: 1px solid #75923C;
+            padding:15px 10px;
+        }
+
+            #div_MasterPage_fast_access_inner ul li:hover ul li a:hover {
+                background: #dfc184;
+                color: #000;
+            }
+
+#div_MasterPage_Logo_And_Navigation {
+    float: left;
+    width: 100%;
+}
+
+#div_MasterPage_Logo {
+    float: left;
+    margin-bottom: 10px;
+}
+
+    #div_MasterPage_Logo td {
+        text-align: center;
+    }
+
+.td_MasterPage_Logo_Img {
+    width: 100px;
+}
+
+.td_MasterPage_Logo_cn {
+    color: #1d3d4a;
+    font-family: 'Microsoft YaHei';
+    font-weight: bold;
+    font-size: 160%;
+    vertical-align: bottom;
+    height: 60px;
+    text-shadow: 2px 2px 1px #BFBFBF;
+}
+
+.td_MasterPage_Logo_url {
+    color: #f8750b;
+    font-family: 'Franklin Gothic', 'Microsoft YaHei';
+    font-weight: bold;
+    font-size: 120%;
+    text-shadow: 2px 2px 1px #BFBFBF;
+}
+
+#div_MasterPage_Logo_inner img {
+    width: 100%;
+}
+
+#div_MasterPage_Menu_Btn {
+    display:none;
+}
+
+#div_MasterPage_navigation {
+    display:block;
+    float: right;
+    margin-top: 35px;
+}
+
+    #div_MasterPage_navigation ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+        #div_MasterPage_navigation ul li {
+            float: left;
+            position: relative;
+        }
+
+    #div_MasterPage_navigation li a:link, #div_MasterPage_navigation li a:visited {
+        display: block;
+        padding: 0.4em 1em 0.4em 1em;
+        color: #1d3d4a;
+        text-decoration: none;
+        font-size: 130%;
+        font-family: 'Microsoft YaHei';
+        font-weight: bold;
+        text-shadow: 2px 2px 1px #BFBFBF;
+    }
+
+    #div_MasterPage_navigation ul li ul {
+        display: none;
+    }
+
+    #div_MasterPage_navigation ul li:hover a {
+        /*background-color: #C2D69A;*/
+        background-color: #b9e5ac;
+        color: #f8750b;
+        clear: both;
+        text-shadow: 2px 2px 1px #F3F3F3;
+    }
+
+    #div_MasterPage_navigation ul li:hover ul {
+        display: block;
+        position: absolute;
+        width: 100px;
+        z-index:50;
+    }
+
+        #div_MasterPage_navigation ul li:hover ul li a {
+            display: block;
+            background: #b9e5ac;
+            color: #f8750b;
+            font-size: 90%;
+            font-weight: normal;
+            min-width: 100px;
+            border-bottom: 1px solid #75923C;
+            text-shadow: 0px 0px 0px #F3F3F3;
+            padding:10px 10px;
+        }
+
+            #div_MasterPage_navigation ul li:hover ul li a:hover {
+                background: #dfc184;
+                color: #000;
+                text-shadow: 0px 0px 0px #F3F3F3;
+            }
+
+
+
+
+
+#div_MasterPage_Current_MapSite {
+    clear: both;
+}
+
+#div_MasterPage_Current_MapSite_inner {
+    border-top: 2px solid #5e994a;
+    border-bottom: 2px solid #5e994a;
+    font-family: 'Microsoft YaHei';
+    font-size: 90%;
+}
+
+#div_MasterPage_Content {
+
+}
+
+#div_MasterPage_Content_Side_Left {
+    float:left;
+    width:21%;
+}
+
+#div_MasterPage_Content_Side_Left_inner {
+    float:left;
+    width:100%;
+}
+
+#div_MasterPage_Side_Left_Products {
+    display:block;
+    float:left;
+    width:100%;
+    background-color:#e7ffe7;
+    border:1px solid #4b6e46;
+}
+
+    #div_MasterPage_Side_Left_Products a {
+        float:left;
+        width:48%;
+        text-decoration:none;
+    }
+
+        #div_MasterPage_Side_Left_Products a:hover {
+            color:#0000FF;
+        }
+
+    #div_MasterPage_Side_Left_Products table {
+        width:100%;
+    }
+
+        #div_MasterPage_Side_Left_Products table td {
+            text-align:center;
+            font-size:90%;
+            font-weight:normal;
+            font-family:'Microsoft YaHei';
+        }
+
+#div_MasterPage_Left_Side_Banner {
+    float:left;
+    width:100%;
+    margin-top:3px;
+}
+
+
+    #div_MasterPage_Left_Side_Banner ul {
+        list-style:none;
+        margin:0;
+        padding:0;
+    }
+
+    #div_MasterPage_Left_Side_Banner ul li {
+        float:left;
+        width:100%;
+        margin-top:2px;
+        text-align:left;
+        background-color:#b4d9b0;
+        border-top:1px solid #4b6e46;
+        border-left:1px solid #4b6e46;
+        border-right:1px solid #4b6e46;
+        border-bottom:1px solid #b1cda7;
+    }
+
+        #div_MasterPage_Left_Side_Banner ul li div {
+            float:left;
+            width:100%;
+            border-top:2px solid #e7ffdf;
+            border-left:0;
+            border-right:0;
+            border-bottom:1px solid #4b6e46;
+        }
+
+            #div_MasterPage_Left_Side_Banner ul li div a {
+                float:left;
+                width:100%;
+                text-decoration:none;
+            }
+
+                #div_MasterPage_Left_Side_Banner ul li div a:hover {
+                    background-color:#f79c52;
+                }
+
+            #div_MasterPage_Left_Side_Banner ul li div table {
+                width:100%;
+                
+            }
+
+.left_side_banner_td_1 {
+    width:70px;
+    text-align:center;
+    vertical-align:middle;
+}
+
+.left_side_banner_td_2 {
+    font-weight:bold;
+    font-family:'Microsoft YaHei';
+    color:#1d3d4a;
+}
+
+#div_MasterPage_Content_Midden_And_Right {
+    float:right;
+    width:78%;
+    /*border:1px solid #FF0000;*/
+}
+
+#div_MasterPage_Content_Midden_And_Right_inner {
+    float:right;
+    width:100%;
+    /*border:1px solid #0000FF;*/
+}
+
+
+#div_MasterPage_Footer {
+    clear: both;
+    width: 100%;
+    border-top: 4px solid #5e994a;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+    #div_MasterPage_Footer p {
+        text-align: center;
+        padding: 3px;
+        margin: 0;
+        font-family: 'Microsoft YaHei';
+    }
+
+
+@media screen and (max-width:1920px) {
+    #div_MasterPage_Container_Header_inner,
+    #div_MasterPage_Container_Content,
+    #div_MasterPage_Container_Footer {
+        max-width: 1200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:1600px) {
+    #div_MasterPage_Container_Header_inner,
+    #div_MasterPage_Container_Content,
+    #div_MasterPage_Container_Footer {
+        max-width: 1200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*1440 or 1366 or 1280*/
+@media screen and (max-width:1440px) {
+    #div_MasterPage_Container_Header_inner,
+    #div_MasterPage_Container_Content,
+    #div_MasterPage_Container_Footer {
+        max-width: 1200px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    #div_MasterPage_Container_Header_inner,
+    #div_MasterPage_Container_Content,
+    #div_MasterPage_Container_Footer {
+        max-width: 980px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*pad*/
+@media screen and (max-width:768px) {
+    #div_MasterPage_Container_Header_inner,
+    #div_MasterPage_Container_Content,
+    #div_MasterPage_Container_Footer {
+        max-width: 752px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #div_MasterPage_fast_access {
+    }
+
+    #div_MasterPage_Logo {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    #div_MasterPage_navigation {
+        float: left;
+        width: 100%;
+        margin-top: 0px;
+    }
+
+        #div_MasterPage_navigation li a:link, #div_MasterPage_navigation li a:visited {
+            padding: 0.2em 0.5em 0.2em 0.5em;
+            font-size: 120%;
+        }
+
+    #div_MasterPage_Content_Side_Left {
+        float: left;
+        width: 100%;
+    }
+
+    .boxtbg1 {
+        float:left;
+        width: 48%;
+        margin-left:3px;
+    }
+
+    #div_MasterPage_Side_Left_Products {
+        display:none;
+    }
+
+    #div_MasterPage_Left_Side_Banner ul li {
+        float:left;
+        width:48%;
+        margin-left:3px;
+    }
+
+    #div_MasterPage_Content_Midden_And_Right {
+        float: right;
+        width: 100%;
+    }
+}
+
+/*phone*/
+@media screen and (max-width:550px) {
+
+    #div_MasterPage_Container_Header_inner,
+    #div_MasterPage_Container_Content,
+    #div_MasterPage_Container_Footer {
+        width: 100%;
+        min-width:320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #div_MasterPage_Container_Content {
+        clear:both;
+    }
+
+    #div_MasterPage_fast_access {
+        display: none;
+    }
+
+    #div_MasterPage_Logo {
+    float: left;
+    width:100%;
+    margin-bottom: 0px;
+}
+
+        #div_MasterPage_Logo table {
+            float:left;
+        }
+
+    #div_MasterPage_Menu_Btn {
+        display:block;
+        float:right;
+    }
+
+    #table_MasterPage_Menu_Btn {
+        
+        margin:0;
+        padding:0;
+    }
+
+        #table_MasterPage_Menu_Btn td {
+            height:100px;
+            padding:0px;
+            margin:0px;
+            background-color:#b9e5ac;
+            text-align:center;
+        }
+
+            #table_MasterPage_Menu_Btn td a {
+                padding-left: 14px;
+                padding-right: 14px;
+                padding-top:20px;
+                padding-bottom:20px;
+                display: block;
+                font-family: 'Microsoft YaHei';
+                font-weight: bold;
+                font-size: 110%;
+                color: #4F6228;
+                text-decoration:none;
+            }
+
+    #div_MasterPage_navigation {
+        display:none;
+        float:right;
+        width:200px;
+        background-color:#b9e5ac;
+        margin-bottom:20px;
+        border-top: 1px solid #75923C;
+    }
+
+
+ #div_MasterPage_navigation ul li {
+            clear:both;
+            width:100%;
+            position: relative;
+            border-bottom: 1px solid #75923C;
+            text-align:right;
+        }
+
+    #div_MasterPage_navigation li a:link, #div_MasterPage_navigation li a:visited {
+        padding-top:8px;
+        padding-bottom:8px;
+        padding-right:30px;
+    }
+
+    #div_MasterPage_navigation ul li ul {
+        display:none;
+        width:100%;
+    }
+
+    #div_MasterPage_navigation ul li:hover ul {
+        display: block;
+        position:static;
+        width: 100%;
+    }
+
+        #div_MasterPage_navigation ul li:hover ul li {
+            border:0px;
+            text-align:right;
+        }
+        #div_MasterPage_navigation ul li:hover ul li a {
+            display: block;
+            background: #b9e5ac;
+            color: #f8750b;
+            font-size: 90%;
+            font-weight: normal;
+            padding-top:10px;
+            padding-bottom:10px;
+            min-width: 100px;
+            border-bottom: 0px;
+            text-shadow: 0px 0px 0px #F3F3F3;
+            padding-right:30px;
+        }
+
+    #div_MasterPage_Current_MapSite {
+        display:none;
+    }
+
+    #div_MasterPage_Content_Side_Left {
+        float: left;
+        width: 100%;
+    }
+
+    .boxtbg1 {
+        width: 100%;
+    }
+
+    #div_MasterPage_Side_Left_Products {
+        display:none;
+    }
+
+    #div_MasterPage_Left_Side_Banner ul li {
+        float:left;
+        width:100%;
+    }
+
+    #div_MasterPage_Content_Midden_And_Right {
+        float: right;
+        width: 100%;
+    }
+
+}

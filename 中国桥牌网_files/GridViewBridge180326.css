@@ -1,0 +1,170 @@
+﻿/*gridview tyle 1 */
+
+
+.GridViewBridge {
+    width: auto;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+    .GridViewBridge caption {
+        margin: 0;
+        padding: 4px 0px;
+        font-weight: bold;
+        text-align: left;
+        border: 0px solid #000;
+        border-bottom: none;
+        background: #fff;
+    }
+
+
+    .GridViewBridge td {
+        margin: 0;
+        padding: 4px 8px 2px 8px;
+        border-bottom: 1px solid #ffffff;
+        vertical-align: bottom;
+        color: #0D304E
+    }
+    .GridViewBridge th {
+        margin: 0;
+        padding: 4px 8px 4px 8px;
+        border-bottom: 1px solid #ffffff;
+        color: #ffffff;
+        background: #31849B;
+    }
+    .GridViewBridge td a {
+        /*
+    display:block;
+    color:#0000dd;
+    */
+    }
+/*
+.GridViewStyle a
+{
+    color: #FFFFFF;
+}
+*/
+.GridViewBridgeHeaderStyle th {
+}
+
+.GridViewBridgeHeaderStyle {
+}
+
+    .GridViewBridgeHeaderStyle a {
+    }
+
+.GridViewBridgeFooterStyle {
+    /*border: 1px solid #000;*/
+}
+
+    .GridViewBridgeFooterStyle a {
+    }
+
+.GridViewBridgeRowStyle {
+    /*background-color: #F7F6F3;
+    background-color: #FFFFFF;
+    font-size:14px; 
+    color:#000000;
+    /*color: #333333;
+    text-align:left;
+    */
+    background: #B6DDE8;
+    font-family: 'Microsoft YaHei';
+    text-align: left;
+}
+
+.GridViewBridgeAlternatingRowStyle {
+    background-color: #DBEEF3;
+    font-family: 'Microsoft YaHei';
+    /*color: #284775;
+    font-size:14px; 
+    color:#000000;
+    text-align:left;*/
+}
+
+    .GridViewBridgeRowStyle a,
+    .GridViewBridgeAlternatingRowStyle a {
+        font-family: 'Microsoft YaHei';
+        color: #0000FF;
+    }
+
+.GridViewBridgeMPClass {
+    text-align: right;
+}
+/*
+.GridViewRowStyle td, .GridViewAlternatingRowStyle td
+{
+    /*border:1px solid background;*/
+/*font-size:10pt;
+    padding-left:5px;
+}
+*/
+.GridViewBridgeSelectedRowStyle {
+    background-color: #E2DED6;
+    /*background-color:#ECFFEC;*/
+    font-weight: bold;
+    color: #333333;
+}
+
+.GridViewBridgePagerStyle {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    font-size: 13pt;
+}
+
+    .GridViewBridgePagerStyle a {
+        color: White;
+        font-size: 13pt;
+        padding: 6px 6px 2px 6px;
+        border: 1px solid #215867;
+        color: #FFFFFF;
+        background-color: #93CDDD;
+    }
+
+        .GridViewBridgePagerStyle a:hover {
+            color: White;
+            font-size: 13pt;
+            padding: 6px 6px 2px 6px;
+            border: 1px solid #215867;
+            color: #000000;
+            background-color: #FFFFFF;
+        }
+
+    .GridViewBridgePagerStyle span {
+        padding: 6px 6px 2px 6px;
+        border: 0;
+        color: #000000;
+        background-color: #FFFFFF;
+        font-size: 13pt;
+    }
+
+    .GridViewBridgePagerStyle td {
+        line-height: 1.2em;
+    }
+
+    .GridViewBridgePagerStyle table /* to center the paging links*/ {
+        margin: 0 auto 0 auto;
+    }
+
+.GridViewBridge .hiddenItem {
+}
+
+@media screen and (Max-Width: 550px) {
+    .GridViewBridge {
+        width: 100%;
+    }
+
+        .GridViewBridge .hiddenItem {
+            display: none;
+        }
+
+        .GridViewBridge td {
+            padding: 4px 4px 2px 4px;
+        }
+
+        .GridViewBridge th {
+            padding: 4px 4px 2px 4px;
+        }
+}

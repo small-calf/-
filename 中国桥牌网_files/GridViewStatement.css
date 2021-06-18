@@ -1,0 +1,143 @@
+﻿/* 对账单GridView样式 *******/
+.GridViewStatement
+{ 
+    background-color:#999999;
+    font-family: Lucida Grande, Arial, sans-serif;
+    
+}
+
+
+.GridViewStatement td
+{
+	height:28px;
+}
+/*
+.GridViewStatement td a
+{
+    display:block;
+    color:#0000dd;
+}
+
+.GridViewStatement a
+{
+    color: #FFFFFF;
+}
+*/
+.GridViewStatementHeaderStyle th
+{
+    background-color:#EFEFEF;
+    font-size:15px; 
+    color:#000000;
+    padding:20px;
+    text-align:center;
+    font-weight:bold;
+    font-family:Microsoft YaHei,SimHei,SimSun;
+}
+
+.GridViewStatementHeaderStyle
+{
+}
+/*
+.GridViewStatementHeaderStyle a
+{
+	color:White;
+}
+*/
+.GridViewStatementFooterStyle
+{
+    background-color: #5D7B9D;
+    font-weight: bold;
+    color: White;
+    padding:20px;
+}
+
+.GridViewStatementFooterStyle a
+{
+}
+
+.GridViewStatementRowStyle
+{
+    background-color: #FFFFFF;
+    padding:20px;
+    color:#000000;
+    text-align:left;
+}
+
+.GridViewStatementAlternatingRowStyle
+{
+    background-color: #FFFFFF;
+    padding:20px;
+    color:#000000;
+    text-align:left;
+}
+
+.GridViewStatementRowStyle td, .GridViewStatementAlternatingRowStyle td
+{
+    padding:10px 20px 10px 20px;
+}
+/*
+.GridViewStatementSelectedRowStyle
+{
+    background-color: #E2DED6;
+    background-color:#ECFFEC;
+    font-weight: bold;
+   
+    color: #333333;
+}
+*/
+
+.GridViewStatementPagerStyle
+{
+/*
+    background-color: #284775;
+    color: #FFFFFF;
+    */
+    background-color:#FFFFFF;
+    font-size:13pt;
+    color:#ffffff;
+}
+.GridViewStatementPagerStyle a
+{
+    /*
+	color:White;*/
+	font-size:13pt;
+	
+	padding:6px 6px 2px 6px;
+	border:1px solid #999999;
+	color:#000000; 
+	background-color:#EFEFEF;
+}
+.GridViewStatementPagerStyle a:hover
+{
+	/*
+	color:White;*/
+	font-size:13pt;
+	
+	padding:6px 6px 2px 6px;
+	border:1px solid #999999;
+	color:#000000; 
+	background-color:#FFFFFF;
+}
+.GridViewStatementPagerStyle span 
+{ 
+    padding:6px 6px 2px 6px;
+	border:0;
+	color:#000000; 
+	background-color:#FFFFFF;
+    font-size:13pt;
+} 
+.GridViewStatementPagerStyle td
+{
+	line-height:1.2em;
+	color:#ffffff;
+}
+.GridViewStatementPagerStyle td a
+{
+    color:#000000;
+}
+
+.GridViewStatementPagerStyle table 
+{
+    margin: 0 auto 0 auto;
+} 
+

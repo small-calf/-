@@ -1,0 +1,58 @@
+﻿/*日程表样式*/
+.GridViewSchedules
+{ 
+    width:100%;
+    background-color:#38811f;
+    font-family: "Lucida Grande", Arial, sans-serif;
+}
+.GridViewSchedules  caption {
+  	margin: 0;
+  	padding: 8px 15px;
+  	text-align: left;
+ 	border: 1px solid #38811f;
+  	border-bottom: none;
+ 	background: #d0e0d8;
+ 	color:#0f7916;
+ 	font-weight:bold;
+  	}
+.GridViewSchedules td a
+{
+    display:block;
+}
+
+.GridViewSchedulesHeader th
+{
+    background:#FFFFFF url(Images/CCBA_Content_l18.gif) 0 0 repeat-x;
+    color:#255e12;
+    padding:8px 0px 8px 0px;
+    text-align:center;
+}
+
+.GridViewSchedulesHeader
+{
+	background-color: #5D7B9D; 
+    font-weight: bold;
+    color:Red;
+}
+.GridViewSchedulesHeader a
+{
+}
+
+.GridViewSchedulesRow
+{
+    background-color: #FFFFFF;
+    color:#000000;
+    text-align:left;
+}
+
+.GridViewSchedulesAlternatingRow
+{
+    background-color: #ffffff;
+    color:#000000;
+    text-align:left;
+}
+
+.GridViewSchedulesRow td, .GridViewSchedulesAlternatingRow td
+{
+    padding:2px 1px 0px 1px;
+}

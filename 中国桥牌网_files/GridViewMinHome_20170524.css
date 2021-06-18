@@ -1,0 +1,186 @@
+﻿body {
+}
+
+.GridViewMinHome
+{ 
+    width:auto;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:0px;
+    margin-bottom:0px;
+}
+.GridViewMinHome  caption {
+  	margin: 0;
+  	text-align: center;
+  	padding: 4px 8px 5px 8px;
+  	border-bottom: 1px solid #ffffff;
+ 	background: #187C1F;
+ 	color:#ffffff;
+    font-weight:bold;
+    font-size:120%;
+}
+
+
+.GridViewMinHome td
+{
+	margin: 0;
+  	padding: 4px 8px 2px 8px;
+  	border-bottom: 1px solid #ffffff;
+  	vertical-align:bottom;
+  	text-align:center;
+  	color:#0C4210
+}
+.GridViewMinHome th
+{
+    margin: 0;
+  	padding: 4px 8px 2px 8px;
+  	border-bottom: 1px solid #ffffff;
+  	color:#ffffff;
+  	background: #126b18;
+  	text-align:center;
+}
+.GridViewMinHome td a
+{
+    
+    display:block;
+    color:#0000bb;
+    
+}
+/*
+.GridViewStyle a
+{
+    color: #FFFFFF;
+}
+*/
+.GridViewMinHomeHeaderStyle th
+{
+   
+}
+
+.GridViewMinHomeHeaderStyle
+{
+}
+.GridViewMinHomeHeaderStyle a
+{
+}
+
+.GridViewMinHomeFooterStyle
+{
+    /*border: 1px solid #000;*/
+}
+
+.GridViewMinHomeFooterStyle a
+{
+    
+}
+
+.GridViewMinHomeRowStyle
+{
+    /*background-color: #F7F6F3;
+    background-color: #FFFFFF;
+    font-size:14px; 
+    color:#000000;
+    /*color: #333333;
+    text-align:left;
+    */
+    background: #aee0b1;
+}
+.GridViewMinHomeAlternatingRowStyle
+{
+    background-color: #d5f6d8;
+    /*color: #284775;
+    font-size:14px; 
+    color:#000000;
+    text-align:left;*/
+}
+.GridViewMinHomeMPClass{
+    text-align:right;
+}
+/*
+.GridViewRowStyle td, .GridViewAlternatingRowStyle td
+{
+    /*border:1px solid background;*/
+    /*font-size:10pt;
+    padding-left:5px;
+}
+*/
+.GridViewMinHomeSelectedRowStyle
+{
+    background-color: #E2DED6;
+    /*background-color:#ECFFEC;*/
+    font-weight: bold;
+   
+    color: #333333;
+}
+
+.GridViewMinHomePagerStyle
+{
+    color: #FFFFFF;
+    background-color:#FFFFFF;
+    font-size:13pt;
+}
+.GridViewMinHomePagerStyle a
+{
+	color:White;
+	font-size:13pt;
+	
+	padding:6px 6px 2px 6px;
+	border:1px solid #126B18;
+	color:#FFFFFF; 
+	background-color:#AEE0B1;
+}
+.GridViewMinHomePagerStyle a:hover
+{
+    
+	color:White;
+	font-size:13pt;
+	
+	padding:6px 6px 2px 6px;
+	border:1px solid #126B18;
+	color:#000000; 
+	background-color:#FFFFFF;
+}
+.GridViewMinHomePagerStyle span 
+{ 
+    padding:6px 6px 2px 6px;
+	border:0;
+	color:#000000; 
+	background-color:#FFFFFF;
+    font-size:13pt;
+} 
+.GridViewMinHomePagerStyle td
+{
+	line-height:1.2em;
+}
+
+.GridViewMinHomePagerStyle table /* to center the paging links*/
+{
+    margin: 0 auto 0 auto;
+}
+
+.GridViewMinHome .hiddenItem
+{
+
+}
+
+@media screen and (Max-Width: 550px)
+{
+    .GridViewMinHome
+    {
+        width:100%;
+    }
+    .GridViewMinHome .hiddenItem
+    {
+        display:none;
+    }
+        .GridViewMinHome td
+        {
+            padding: 4px 4px 2px 4px;
+        }
+
+        .GridViewMinHome th
+        {
+            padding: 4px 4px 2px 4px;
+        }
+}

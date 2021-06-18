@@ -1,0 +1,16 @@
+header {
+	background-color: #155724;
+}
+header .container{
+	width: 1200px;
+}
+header .container .row nav {
+	margin: 5px 0;
+}
+header .container .row nav img {
+	max-width: 100%;
+	height: 64px;
+}
+header .container .row nav button {
+	margin-right: 0;
+}

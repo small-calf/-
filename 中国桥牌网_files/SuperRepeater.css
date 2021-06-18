@@ -1,0 +1,33 @@
+﻿/* 后台 Repeater Table */
+
+.table-super-repeater
+{
+
+}
+
+    .table-super-repeater th
+    {
+        background-color:#31849B;
+        color:#FFFFFF;
+        font-family:'Microsoft YaHei';
+        padding:3px 4px;
+        border-bottom:1px solid #FFFFFF;
+    }
+
+    .table-super-repeater .td-item
+    {
+        background-color:#B6DDE8;
+        font-family:'Microsoft YaHei';
+        padding:4px 8px;
+        border-bottom:1px solid #FFFFFF;
+        vertical-align:bottom;
+    }
+
+    .table-super-repeater .td-alter
+    {
+        background-color:#DBEEF3;
+        font-family:'Microsoft YaHei';
+        padding:4px 8px;
+        border-bottom:1px solid #FFFFFF;
+        vertical-align:bottom;
+    }

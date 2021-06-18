@@ -1,0 +1,246 @@
+﻿/* Index Style */
+
+#div_Index_Middle {
+    float:left;
+    width:55%;
+}
+
+#div_Index_Right {
+    float:right;
+    width:44%;
+}
+
+#div_Index_Side_Left_Products {
+    display:none;
+    float:left;
+    width:100%;
+    background-color:#e7ffe7;
+    border:1px solid #4b6e46;
+    margin-top:3px;
+    margin-bottom:3px;
+}
+
+
+
+    #div_Index_Side_Left_Products a {
+        float:left;
+        width:25%;
+        text-decoration:none;
+    }
+
+        #div_Index_Side_Left_Products a:hover {
+            color:#0000ff;
+        }
+
+    #div_Index_Side_Left_Products table {
+        width:100%;
+    }
+
+        #div_Index_Side_Left_Products table td {
+            text-align:center;
+            font-size:90%;
+            font-weight:normal;
+            font-family:'Microsoft YaHei';
+        }
+
+        .pp_portal_imgNews {
+            width:100%;
+            margin-top:3px;
+        }
+
+        .pp_portal_imgNew {
+        }
+
+            .pp_portal_imgNew a {
+                padding:0;
+                margin:0;
+                border:0;
+            }
+
+
+            .pp_portal_imgNew a img {
+                width: 100%;
+                border: 1px solid #969696; 
+            }
+
+
+        .pp_portal_navLink {
+            margin:0;
+            padding:0;
+        }
+
+
+            .pp_portal_navLink  ul li a {
+                color: White;
+                text-align: center;
+                text-decoration: none;
+                font-size: 110%;
+                margin:0px;
+                padding:2px 5px;
+                
+            }
+
+                .pp_portal_navLink  ul li a:link {
+                    color: White;
+                }
+
+                .pp_portal_navLink  ul li a:hover {
+                    color: White;
+                }
+
+                .pp_portal_navLink  ul li a:active {
+                    color: White;
+                }
+
+                .pp_portal_navLink  ul li a:visited {
+                    color: White;
+                }
+
+            .pp_portal_navLink ul {
+                padding:0px;
+                margin:0px;
+            }
+
+            .pp_portal_navLink ul li {
+                float:left;
+                color: White;
+                display: inline;
+                text-align: center;
+                background-color: #333;
+                border:1px solid #969696;
+                margin: 0px;
+                padding: 0px;
+            }
+
+        .tournameHidden {
+            padding: 0;
+            margin: 0;
+            white-space: nowrap;
+            width: inherit;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+#div_Index_Banner {
+    float:left;
+    width:100%;
+    margin-top:3px;
+    margin-bottom:0;
+    margin-left:0;
+    margin-right:0;
+    padding:0;
+}
+
+    #div_Index_Banner div {
+        margin:0;
+        padding:0;
+        border:0;
+    }
+
+        #div_Index_Banner div a {
+            padding:0;
+            margin:0;
+            border:0;
+        }
+
+            #div_Index_Banner div a img {
+                padding:0;
+                margin:0;
+                border: 1px solid #969696; 
+                width:100%;
+            }
+
+
+#div_Index_CCBA_Express,
+#div_Index_Org_Express {
+    float:left;
+    width:100%;
+    margin-top:3px;
+    border:1px solid #969696
+}
+
+    #div_Index_CCBA_Express table td a,
+    #div_Index_Org_Express table td a{
+        font-family:'Microsoft YaHei';
+        text-decoration:none;
+    }
+    
+
+    #div_Index_CCBA_Express table td a:hover,
+    #div_Index_Org_Express table td a:hover{
+        color:#0000FF;
+    }
+
+#div_Index_CCBA_Tour_New {
+    margin-top:3px;
+}
+
+.linkCM {
+    background-color:#AEE0B1;
+    width:100%;
+    text-align:center;
+    font-family:'Microsoft YaHei';
+    font-size:115%;
+    padding-top:12px;
+    padding-bottom:12px;
+    display:block;
+}
+
+.td_Index_Tour_Header {
+    font-weight:bold;
+    font-family:'Microsoft YaHei';
+    color:#1d3d4a;
+    padding-left:10px;
+    font-size:110%;
+}
+
+#div_Index_Right table td a {
+    font-family:'Microsoft YaHei';
+    text-decoration:none;
+}
+
+    #div_Index_Right table td a:hover {
+        color:#0000FF;
+    }
+
+
+@media screen and (max-width:1920px) {
+    
+}
+
+@media screen and (max-width:1600px) {
+    
+}
+
+/*1440 or 1366 or 1280*/
+@media screen and (max-width:1440px) {
+    
+}
+
+@media screen and (max-width:1024px) {
+    
+}
+
+/*pad*/
+@media screen and (max-width:768px) {
+    #div_Index_Side_Left_Products {
+        display:block;
+    }
+}
+
+/*phone*/
+@media screen and (max-width:550px) {
+    #div_Index_Middle {
+        float: left;
+        width: 100%;
+    }
+
+    #div_Index_Right {
+        float: right;
+        width: 100%;
+    }
+
+    #div_Index_Side_Left_Products {
+        display:block;
+    }
+}

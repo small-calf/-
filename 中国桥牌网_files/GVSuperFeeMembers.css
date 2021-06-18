@@ -1,0 +1,130 @@
+﻿body {
+}
+.GVSuperFeeMembers
+{ 
+    width:100%;
+    font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.GVSuperFeeMembers td
+{
+	border-color:#ffffff;
+    border-style:outset;
+    border-width:1px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size:90%;
+    text-align:center;
+}
+.GVSuperFeeMembers caption
+{
+    border-color:#ffffff;
+    border-style:outset;
+    border-width:1px;
+    text-align:left;
+    padding:5px;
+    font-size:90%;
+    font-weight:bold;
+    margin-left:2px;
+    margin-right:2px;
+    background-color:#4A87A6;
+    color:#ffffff;
+}
+.GVSuperFeeMembers td a
+{
+    display:block;
+    color:#0000dd;
+}
+
+.GVSuperFeeMembers a
+{
+    color: #0000dd;
+}
+
+.GVSuperFeeMembersHeaderStyle th
+{
+    border-color:#ffffff;
+    border-style:outset;
+    border-width:1px;
+    padding-left:5px;
+    padding-right:5px;
+    font-size:90%;
+    text-align:center;
+}
+
+.GVSuperFeeMembersHeaderStyle
+{
+	background-color: #6EAFC5; 
+    /*background:background;*/
+    /*font-weight: bold;*/
+    color: #ffffff;
+}
+.GVSuperFeeMembersHeaderStyle a
+{
+	color:White;
+}
+
+.GVSuperFeeMembersFooterStyle
+{
+}
+
+.GVSuperFeeMembersFooterStyle a
+{
+}
+
+.GVSuperFeeMembersRowStyle
+{
+    border-color:#ffffff;
+    border-style:outset;
+    border-width:1px;
+    padding-left:5px;
+    padding-right:5px;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+.GVSuperFeeMembersAlternatingRowStyle
+{
+    border-color:#ffffff;
+    border-style:outset;
+    border-width:1px;
+    padding-left:5px;
+    padding-right:5px;
+    margin-left:2px;
+    margin-right:2px;
+}
+
+.GVSuperFeeMembersRowStyle td, .GVSuperFeeMembersAlternatingRowStyle td
+{
+    /*border:1px solid background;*/
+    /*font-size:10pt;*/
+    /*padding-left:5px;*/
+}
+
+.GVSuperFeeMembersSelectedRowStyle
+{
+}
+
+.GVSuperFeeMembersPagerStyle
+{
+}
+.GVSuperFeeMembersPagerStyle a
+{
+}
+.GVSuperFeeMembersPagerStyle a:hover
+{
+}
+.GVSuperFeeMembersPagerStyle span 
+{ 
+} 
+.GVSuperFeeMembersPagerStyle td
+{
+}
+.GVSuperFeeMembersPagerStyle td a
+{
+}
+
+.GVSuperFeeMembersPagerStyle table /* to center the paging links*/
+{
+} 
+

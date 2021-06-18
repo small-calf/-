@@ -1,0 +1,65 @@
+﻿/* 高级搜索 **/
+#advancedOption
+{
+    display:none; 
+    background-color:#5F9563; 
+    padding:3px;
+}
+#advancedHead
+{
+    margin:10px 10px 10px 10px;
+    background-color:#BBDBBD;
+    padding:0px;
+    color:#05650C;
+    font-weight:bold;
+}
+#advanceTable
+{
+    clear:both;
+    width:100%;
+    background-color:#BBDBBD;
+    padding:10px;
+    color:#034108;
+}
+#advanceTable .td1
+{
+    width:100px;
+}
+#advanceTable td
+{
+    text-align:left;
+}
+
+
+/* 高级搜索  后台 **/
+#advancedOptionSuper
+{
+    display:none; 
+    background-color:#31849B; 
+    padding:3px;
+}
+#advancedHeadSuper
+{
+    margin:10px 10px 10px 10px;
+    background-color:#B6DDE8;
+    padding:0px;
+    color:#000000;
+    font-weight:bold;
+}
+#advanceTableSuper
+{
+    clear:both;
+    width:100%;
+    background-color:#B6DDE8;
+    padding:10px;
+    color:#000000;
+}
+#advanceTableSuper .td1
+{
+    width:100px;
+}
+
+#advanceTableSuper td
+{
+    text-align:left;
+}

@@ -1,0 +1,290 @@
+﻿/* 通讯赛主页 */
+
+#cmHome {
+    margin-left:auto;
+    margin-right:auto;
+    max-width:1000px;
+    width:100%;
+}
+
+#cmHomeHeader {
+    border: 1px solid #013D06;
+}
+
+#cmHomeHeader table {
+    width:100%;
+}
+
+    #cmHomeHeader table td {
+        font-family: 'Microsoft YaHei';
+        text-align: center;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        font-size: 200%;
+        background-color: #126B18;
+        color: #FFFFFF;
+        font-weight: normal;
+        
+    }
+
+        #cmHomeHeader table td a {
+            text-decoration:none;
+        }
+
+#cmHomeContent {
+    width:100%;
+    margin-top:8px;
+    margin-bottom:8px;
+}
+
+#cmHomeLeft {
+    float:left;
+    width:35%;
+}
+
+#cmHomeLeftInner {
+
+}
+
+#cmHomeRight {
+    float:right;
+    width:64%;
+}
+
+#cmHomeRightInner {
+
+}
+
+#cmHomeTotalRank {
+    float:left;
+    width:100%;
+    margin-top:8px;
+}
+
+#cmHomeHainanRank {
+    float: left;
+    width: 100%;
+    margin-top:8px;
+}
+#cmHomeQuanyunRank {
+    float: left;
+    width: 100%;
+}
+#cmHomeQuanyunRankInner {
+    margin-left:8px;
+}
+
+#cmHomeTotalRankLeft,
+#cmHomeHainanRankLeft,
+#cmHomeHainanPairRankLeft {
+    float: left;
+    width: 50%;
+}
+#cmHomeTotalRankRight,
+#cmHomeHainanRankRight,
+#cmHomeHainanPairRankRight {
+    float: right;
+    width: 50%;
+}
+#cmHomeTotalRankLeftInner,
+#cmHomeTotalRankRightInner,
+#cmHomeHainanRankLeftInner,
+#cmHomeHainanPairRankLeftInner,
+#cmHomeHainanRankRightInner,
+#cmHomeHainanPairRankRightInner{
+    margin-left: 8px;
+}
+.cmHomeTotalRankTitle {
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    font-size: 130%;
+    padding: 8px;
+    background-color:#D8D8D8;
+    border:1px solid #BFBFBF;
+    margin-left:8px;
+}
+.cmHomeSubTitle {
+    text-align: center;
+    font-family: 'Microsoft YaHei';
+    font-size: 130%;
+    padding: 8px;
+}
+
+.cmPersonalRankTable {
+    float:left;
+    margin-right:8px;
+    border:1px solid #BFBFBF;
+    padding:16px;
+    background-color:#FFFFFF;
+    min-width:320px;
+}
+
+    .cmPersonalRankTable td {
+        text-align:left;
+        font-family:'Microsoft YaHei';
+    }
+.cmPersonalRankP {
+    text-align:right;
+    padding:0px 0px 0px 24px;
+    margin:0px;
+    font-family:'Microsoft YaHei';
+    font-size:300%;
+    font-weight:bold;
+}
+.cmPersonalPercentageP {
+    text-align: right;
+    padding: 0px 0px 0px 24px;
+    margin: 0px;
+    font-family: 'Microsoft YaHei';
+    font-size: 150%;
+    color:#E46D0A;
+}
+#cmPersonalSearchBar {
+    float:left;
+    width:100%;
+    margin-bottom:16px;
+}
+#cmPersonalMemberInfo {
+    float: left;
+    width: 100%;
+    text-align:left;
+    font-family:'Microsoft YaHei';
+    font-size:130%;
+    margin-bottom:8px;
+
+}
+/*pad*/
+@media screen and (max-width:768px) {
+    #cmHome {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #cmHomeHeader table td {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 140%;
+        font-weight: bold;
+    }
+
+    #cmHomeContent {
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    #cmHomeTotalRankLeft,
+    #cmHomeHainanRankLeft,
+    #cmHomeHainanPairRankLeft{
+        width: 100%;
+    }
+
+
+    #cmHomeTotalRankRight,
+    #cmHomeHainanRankRight,
+    #cmHomeHainanPairRankRight{
+        width: 100%;
+    }
+    #cmHomeTotalRankLeftInner,
+    #cmHomeTotalRankRightInner,
+    #cmHomeHainanRankLeftInner,
+    #cmHomeHainanPairRankLeftInner,
+    #cmHomeHainanRankRightInner,
+    #cmHomeHainanPairRankRightInner{
+        margin-left: 8px;
+    }
+}
+
+/*phone*/
+@media screen and (max-width:550px) {
+    #cmHome {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    #cmHomeHeader table td {
+        padding-top: 16px;
+        padding-bottom: 16px;
+        font-size: 110%;
+        color: #FFFFFF;
+        font-weight:normal;
+    }
+
+    #cmHomeContent {
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    #cmHomeLeft {
+        width: 100%;
+    }
+
+    #cmHomeRight {
+        width: 100%;
+    }
+    #cmHomeTotalRankLeft,
+    #cmHomeHainanRankLeft,
+    #cmHomeHainanPairRankLeft{
+        width: 100%;
+    }
+
+    #cmHomeTotalRankRight,
+    #cmHomeHainanRankRight,
+    #cmHomeHainanPairRankRight{
+        width: 100%;
+    }
+    #cmHomeQuanyunRankInner,
+    #cmHomeTotalRankLeftInner,
+    #cmHomeTotalRankRightInner,
+    #cmHomeHainanRankLeftInner,
+    #cmHomeHainanPairRankLeftInner,
+    #cmHomeHainanRankRightInner,
+    #cmHomeHainanPairRankRightInner{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+
+    .cmHomeTotalRankTitle {
+        font-size: 110%;
+        margin-left: 8px;
+        margin-right:8px;
+        margin-top:8px;
+    }
+
+    .cmPersonalRankTable {
+        float: left;
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom:8px;
+        border: 1px solid #BFBFBF;
+        padding: 8px;
+        min-width:200px;
+    }
+
+        .cmPersonalRankTable td {
+            text-align: left;
+            font-family: 'Microsoft YaHei';
+            font-size:95%;
+        }
+
+    .cmPersonalRankP {
+        text-align: right;
+        padding: 0px 0px 0px 16px;
+        margin: 0px;
+        font-family: 'Microsoft YaHei';
+        font-size: 200%;
+        font-weight: bold;
+    }
+
+    .cmPersonalPercentageP {
+        text-align: right;
+        padding: 0px 0px 0px 16px;
+        margin: 0px;
+        font-family: 'Microsoft YaHei';
+        font-size: 130%;
+        color: #E46D0A;
+    }
+}
+

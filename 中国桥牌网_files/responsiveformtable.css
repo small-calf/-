@@ -1,0 +1,70 @@
+﻿/* Responsive Form Table Style */
+
+.FormTableResponsive{
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.FormTableResponsive caption{
+    font-family:'Microsoft YaHei';
+    font-size:150%;
+    font-weight:bold;
+    text-align:left;
+    padding:8px;
+    text-align:center;
+}
+
+.FormTableResponsive th{
+    font-family:'Microsoft YaHei';
+    font-size:95%;
+    font-weight:normal;
+    text-align:right;
+    vertical-align:middle;
+    color:#5A5A5A;
+    padding-left:0px;
+    padding-right:4px;
+}
+
+.FormTableResponsive td{
+    font-family:'Microsoft YaHei';
+    font-size:110%;
+    text-align:left;
+    vertical-align:middle;
+    color:#272727;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:0px;
+    padding-right:0px;
+}
+
+@media screen and (max-width:550px){
+
+    .FormTableResponsive{
+        width:100%;
+        padding-left:8px;
+        padding-right:8px;
+    }
+
+    .FormTableResponsive caption{
+        text-align:left;
+        padding-left:8px;
+    }
+
+    .FormTableResponsive th{
+        float:left;
+        width:100%;
+        text-align:left;
+        vertical-align:bottom;
+        padding-bottom:2px;
+        padding-left:0px;
+    }
+
+    .FormTableResponsive td{
+        float:left;
+        width:100%;
+        text-align:left;
+        vertical-align:top;
+        padding-top:0px;
+        padding-left:0px;
+    }
+}

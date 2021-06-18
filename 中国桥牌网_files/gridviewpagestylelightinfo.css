@@ -1,0 +1,29 @@
+﻿
+.GridViewPageStyle-Light-Info a {
+    display: block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.975rem;
+    line-height: 1.5;
+}
+
+    .GridViewPageStyle-Light-Info a:hover {
+        color: #0056b3;
+        text-decoration: none;
+        background-color: #e9ecef;
+        border-color: #dee2e6;
+    }
+
+.GridViewPageStyle-Light-Info span {
+    display: block;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.975rem;
+    line-height: 1.5;
+    background-color: #215867;
+    color: white;
+}
+
+.GridViewPageStyle-Light-Info table td {
+    background-color: #FFFFFF;
+    border: 1px solid #dee2e6;
+    padding: 0px;
+}

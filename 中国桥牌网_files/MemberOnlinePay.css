@@ -1,0 +1,100 @@
+﻿/* 会员在线交费样式 ***/
+
+/* 大师分显示样式 **/
+.masterInfo
+{
+    font-size:100%;
+}
+.masterTd
+{
+    border-width:0px;
+    padding:0px 4px 0px 4px;
+    text-align:center;
+    border-style:none;
+}
+
+/* Div **/
+.mainDiv
+{
+    padding:10px; 
+    text-align:left;
+    /*background:#E7FAE0 url(../App_Themes/Home/Images/member/member_online_bg.gif) 0 0 repeat-x;*/
+}
+
+/* 表格样式 **/
+.subTable
+{
+    width:100%;
+    margin-top:5px;
+    /*
+    line-height:1.5;
+    */
+}
+.subTable td
+{
+    border-color:#ffffff;
+    border-style:outset;
+    border-width:1px;
+    padding-left:5px;
+    padding-right:5px;
+    padding-top:2px;
+    padding-bottom:2px;
+    /*
+    padding-top:5px;
+    padding-bottom:5px;
+    */
+    font-size:90%;
+}
+.subTable caption
+{
+    border-color:#BADFB4;
+    border-style:outset;
+    border-width:1px;
+    text-align:left;
+    padding:5px;
+    font-size:100%;
+    font-weight:bold;
+    margin-left:2px;
+    margin-right:2px;
+    background-color:#7BBA73;
+    color:#ffffff;
+}
+.tdTitle
+{
+    background-color: #B5DAAF; 
+    color: #2D7819;
+    font-weight:bold;
+    text-align:center;
+}
+.tdDate
+{
+    background-color:#ECF9E7;
+    text-align:left;
+}
+
+/** 发送Email提示信息 ****/
+.memberOnlinePaySendEmail
+{
+    border:2px solid #BADFB4;
+    background-color:#ECF9E7;
+    font-size:90%;
+    padding:5px; 
+    margin-top:10px;
+}
+
+/***  交费会员表格样式 *******************/
+.pay_member
+{
+    /*width:100%;*/
+}
+.pay_member td
+{
+    margin:0px;
+    padding:0px 4px 0px 0px;
+    color:#444444;
+    border:0px;
+    vertical-align:bottom;
+    text-align:center;
+    height:0px;
+}
+/***  交费会员表格样式 *******************/

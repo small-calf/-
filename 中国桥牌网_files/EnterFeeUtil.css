@@ -1,0 +1,72 @@
+﻿/* Enter Fee Util */
+
+body {
+}
+
+#div-efu-header{
+    background-color:#215867;
+    padding:16px;
+    color:#FFFFFF;
+}
+#div-efu-title{
+    font-family:'Microsoft YaHei';
+    font-size:150%;
+    text-align:left;
+}
+#div-efu-sub-title {
+    font-family: 'Microsoft YaHei';
+    font-size: 130%;
+    text-align: left;
+}
+#div-efu-exit{
+    text-align:right;
+}
+#div-efu-exit a{
+    font-family:'Microsoft YaHei';
+}
+
+#div-efu-main{
+    padding:16px;
+}
+
+#div-efu-temp-list {
+    
+    margin-left:auto;
+    margin-right:auto;
+}
+
+@media screen and (max-width:550px) {
+    #div-efu-header {
+        background-color: #215867;
+        padding: 8px;
+    }
+
+    #div-efu-title {
+        font-family: 'Microsoft YaHei';
+        font-size: 100%;
+        text-align: left;
+    }
+
+    #div-efu-sub-title {
+        font-family: 'Microsoft YaHei';
+        font-size: 90%;
+        text-align: left;
+    }
+
+    #div-efu-exit {
+        text-align: right;
+        padding-top:16px;
+    }
+
+        #div-efu-exit a {
+            font-family: 'Microsoft YaHei';
+            font-size:90%;
+        }
+
+    #div-efu-main {
+        padding: 8px;
+    }
+    #div-efu-temp-list {
+        width: 100%;
+    }
+}

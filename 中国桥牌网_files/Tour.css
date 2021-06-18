@@ -1,0 +1,338 @@
+﻿/************** 赛事 styles *****************/	
+#pag_ss{
+	width:973px;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	background:#FFFFFF url(Images/tourIndexHead.gif) 0 0 no-repeat;
+	/*height:inherit;*/
+	border:1px solid #0A5B0F;
+	margin-top:2px;
+}
+
+#div_header_time_venue {
+    padding-top:10px; 
+    padding-left:110px; 
+    color:#ffffff; 
+    text-align:left;
+}
+
+.panel_no_logo {
+    height:160px;
+}
+
+#div_navigation {
+    width:973px; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#pas_ss_index
+{
+    float:left;
+    width:973px;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	border:1px solid #0A5B0F;
+	margin-top:10px;
+    margin-bottom:10px;
+    background-color:#bef5c1;
+	
+}
+#pas_ss_index  a{
+        float:left;
+        width:16.66%;
+        background-color:#bef5c1;
+        padding-top:3px;
+        padding-bottom:3px;
+        font-weight:bold;
+        color:#6d274d;
+        font-family:'Microsoft YaHei';
+        font-size:140%;
+        text-shadow:2px 2px 1px #A5A5A5;
+    }
+
+    #pas_ss_index a:hover {
+    
+        background-color:#276d2b;
+        color:#8e3364;
+        text-shadow:1px 1px 1px #ffffff;
+    }
+
+
+#div_navigation_cm {
+    width:973px; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#pas_ss_index_cm
+{
+    float:left;
+    width:973px;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	border:1px solid #0A5B0F;
+	margin-top:8px;
+    margin-bottom:8px;
+    background-color:#bef5c1;
+	
+}
+#pas_ss_index_cm  a{
+        float:left;
+        width:12.49%;
+        background-color:#bef5c1;
+        padding-top:4px;
+        padding-bottom:4px;
+        font-weight:bold;
+        color:#6d274d;
+        font-family:'Microsoft YaHei';
+        font-size:120%;
+        text-shadow:2px 2px 1px #A5A5A5;
+    }
+
+    #pas_ss_index_cm a:hover {
+    
+        background-color:#276d2b;
+        color:#8e3364;
+        text-shadow:1px 1px 1px #ffffff;
+    }
+
+.label-cm-public-date
+{
+    float:left;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:8px;
+}
+
+#pag_ss_c_top
+{
+    font-family: Georgia, serif;
+    font-size:35px;
+    font-weight:bold;
+    text-align:left; 
+    color:#ffffff;
+    padding:20px 0px 0px 110px;
+    filter:Dropshadow(offx=1,offy=0,color=#1C5906) Dropshadow(offx=0,offy=1,color=#1C5906) Dropshadow(offx=-1,offy=0,color=#1C5906) Dropshadow(offx=0,offy=-1,color=#1C5906);
+}
+
+#pag_ss_r{
+	float:right;
+	width:299px;
+	margin:0;
+}
+
+#pag_ss_content{
+	clear:both;
+	width:973px;
+	min-height:420px;
+	text-align:center;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:10px;
+	padding:0px 0px 10px 0px;
+}
+#pag_ss_content table,#pag_ss_content tr,#pag_ss_content td{
+	/*font-size:14px;
+	color:#333333;*/
+    
+}
+#pag_ss_content .bt{
+	color:#38811f;
+	font-size:14px;
+	font-weight:bold;
+
+}
+#tourBaseInfoTd{
+    padding-left:10px; 
+    text-align:left;
+}
+
+/** 操作成功时 消息Label样式 **/
+.resultMessageSuccess
+{
+     padding:5px 20px 5px 20px;
+     font-weight:bold;
+}
+
+/** 操作失败时 消息Label样式 **/
+.resultMessageUnsuccess
+{
+     margin:0px;
+     padding:0px;
+}
+
+/** 操作失败时 消息div样式 **/
+.resultDivUnsuccess
+{
+     margin:0px;
+     margin-bottom:5px;
+     padding:5px 20px 5px 20px;
+     line-height:1.5;
+     text-align:left;
+     width:auto;
+     border:1px solid #800000;
+     font-size:90%;
+}
+
+/** 操作成功时 消息div样式 **/
+.resultDivSuccess
+{
+     margin:0px;
+     padding:0px;
+     text-align:center;
+     font-size:90%;
+}
+
+/*设置密码操作结果提示*/
+.setPasswordLabelSuccess
+{
+     margin:0px;
+     padding:5px 20px 5px 20px;
+     font-weight:bold;
+     text-align:center;
+     font-size:90%;
+     background-color:#00FF00;
+     color:#CD6506;
+}
+.setPasswordLabelUnSuccess
+{
+     margin:0px;
+     padding:5px 20px 5px 20px;
+     font-weight:bold;
+     text-align:center;
+     font-size:90%;
+     background-color:#FF0000;
+     color:#FFF500;
+}
+
+
+@media screen and (max-width:970px) {
+
+    #pag_ss {
+        width:100%;
+    }
+
+    #div_navigation {
+    width:100%; 
+}
+
+    #pas_ss_index {
+        width:100%;
+        
+    }
+
+    #pag_ss_content {
+        width:100%;
+    }
+            
+}
+
+@media screen and (max-width: 550px) {
+    #pag_ss {
+        width:100%;
+        background:#16931e;
+        margin-top:0px;
+    }
+
+        #div_header_time_venue {
+    padding-top:10px; 
+    padding-left:10px; 
+    font-size:90%;
+    color:#ffffff; 
+    text-align:left;
+}
+
+        .panel_no_logo {
+    height:auto;
+    padding-bottom:20px;
+}
+
+    #pag_ss_c_top
+{
+    font-size:130%;
+    font-weight:bold;
+    text-align:left; 
+    color:#ffffff;
+    padding:20px 0px 0px 10px;
+    filter:Dropshadow(offx=1,offy=0,color=#1C5906) Dropshadow(offx=0,offy=1,color=#1C5906) Dropshadow(offx=-1,offy=0,color=#1C5906) Dropshadow(offx=0,offy=-1,color=#1C5906);
+}
+
+    #div_navigation {
+    width:100%; 
+}
+
+    #pas_ss_index {
+        width:100%;
+        background-color:#bff5c1;
+    }
+
+    #pas_ss_index  a{
+        float:left;
+        width:100%;
+        background-color:#bef5c1;
+        padding-top:3px;
+        padding-bottom:3px;
+        font-weight:bold;
+        color:#6d274d;
+        font-family:'Microsoft YaHei';
+        font-size:140%;
+        text-shadow:2px 2px 1px #A5A5A5;
+    }
+
+    #pas_ss_index a:hover {
+        background-color:#276d2b;
+        color:#8e3364;
+        text-shadow:1px 1px 1px #ffffff;
+    }
+    
+    #div_navigation_cm {
+    width:100%; 
+}
+
+    #pas_ss_index_cm {
+        width:100%;
+        background-color:#bff5c1;
+    }
+
+    #pas_ss_index_cm  a{
+        float:left;
+        width:100%;
+        background-color:#bef5c1;
+        padding-top:3px;
+        padding-bottom:3px;
+        font-weight:bold;
+        color:#6d274d;
+        font-family:'Microsoft YaHei';
+        font-size:120%;
+        text-shadow:2px 2px 1px #A5A5A5;
+    }
+
+    #pas_ss_index_cm a:hover {
+        background-color:#276d2b;
+        color:#8e3364;
+        text-shadow:1px 1px 1px #ffffff;
+    }
+
+    .label-cm-public-date
+    {
+        width: 100%;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    #pag_ss_content {
+        width:100%;
+    }
+
+    #pag_footer {
+        width:100%;
+    }
+
+    #ctl00_ContentPlaceHolder1_GridViewSchedule td {
+        font-size:85%;
+    }
+}

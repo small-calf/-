@@ -1,0 +1,32 @@
+﻿body {
+
+}
+
+.dragPanel
+{
+     /*border:3px solid #1A2B3E;*/
+     background-color:#9EBAD8;
+     border:3px solid #0A1016;
+}
+
+.dragPanelHeader
+{
+     background-color:#32557B;
+     border-bottom:3px solid #0A1016;
+     padding:5px;
+     text-align:left;
+     color:#FFFFFF;
+     font-weight:bold;
+}
+
+.dragPanel table
+{
+     margin:10px;
+}
+
+.dragPanel table td
+{
+     text-align:center;
+     color:#0D304E;
+     padding:3px;
+}

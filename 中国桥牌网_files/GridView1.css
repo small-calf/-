@@ -1,0 +1,151 @@
+﻿body {
+}
+
+.GridViewNoBorder
+{ 
+    width:100%;
+    font-family: "Lucida Grande", Arial, sans-serif;
+    border-top: 1px solid #000;
+}
+.GridViewNoBorder  caption {
+  	margin: 0;
+  	padding: 8px 20px;
+  	text-align: left;
+ 	border: 1px solid #000;
+  	border-bottom: none;
+ 	background: #fff;
+  	}
+
+
+.GridViewNoBorder td
+{
+	margin: 0;
+  	padding: 18px 2px 2px 2px;
+  	border-bottom: 1px solid #b5b5b5;
+  	vertical-align:bottom;
+}
+.GridViewNoBorder th
+{
+    margin: 0;
+  	padding: 18px 2px 2px 2px;
+  	border-bottom: 1px solid #b5b5b5;
+  	color:#999999;
+  	background: #e6e6e6;
+  	text-align:left;
+}
+.GridViewNoBorder td a
+{
+    display:block;
+    color:#0000dd;
+}
+/*
+.GridViewStyle a
+{
+    color: #FFFFFF;
+}
+*/
+.GridViewNoBorderHeaderStyle th
+{
+   
+}
+
+.GridViewNoBorderHeaderStyle
+{
+}
+.GridViewNoBorderHeaderStyle a
+{
+}
+
+.GridViewNoBorderFooterStyle
+{
+    border: 1px solid #000;
+}
+
+.GridViewNoBorderFooterStyle a
+{
+    
+}
+
+.GridViewNoBorderRowStyle
+{
+    /*background-color: #F7F6F3;
+    background-color: #FFFFFF;
+    font-size:14px; 
+    color:#000000;
+    /*color: #333333;
+    text-align:left;
+    */
+    background: #f1f1f1;
+}
+.GridViewNoBorderAlternatingRowStyle
+{
+    background-color: #e6e6e6;
+    /*color: #284775;
+    font-size:14px; 
+    color:#000000;
+    text-align:left;
+}
+/*
+.GridViewRowStyle td, .GridViewAlternatingRowStyle td
+{
+    /*border:1px solid background;*/
+    /*font-size:10pt;
+    padding-left:5px;
+}
+
+.GridViewSelectedRowStyle
+{
+    background-color: #E2DED6;
+    /*background-color:#ECFFEC;
+    font-weight: bold;
+   
+    color: #333333;
+}
+
+.GridViewPagerStyle
+{
+    /*background-color: #284775;
+    color: #FFFFFF;
+    background-color:#FFFFFF;
+    font-size:13pt;
+}
+.GridViewPagerStyle a
+{
+    /*
+	color:White;
+	font-size:13pt;
+	
+	padding:6px 6px 2px 6px;
+	border:1px solid #6bb028;
+	color:#FFFFFF; 
+	background-color:#52861f;
+}
+.GridViewPagerStyle a:hover
+{
+    /*
+	color:White;
+	font-size:13pt;
+	
+	padding:6px 6px 2px 6px;
+	border:1px solid #6bb028;
+	color:#000000; 
+	background-color:#FFFFFF;
+}
+.GridViewPagerStyle span 
+{ 
+    padding:6px 6px 2px 6px;
+	border:0;
+	color:#000000; 
+	background-color:#FFFFFF;
+    font-size:13pt;
+} 
+.GridViewPagerStyle td
+{
+	line-height:1.2em;
+}
+
+.GridViewPagerStyle table /* to center the paging links
+{
+    margin: 0 auto 0 auto;
+} 
+*/
